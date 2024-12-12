@@ -1,0 +1,32 @@
+.box{
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    background-color: pink;
+    border: 2px solid #000;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;     
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(193, 221, 221);
+}
+.box:hover{
+    background-color: rgb(109, 141, 168);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);   
+}
+.reset{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+}
